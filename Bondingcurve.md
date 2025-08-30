@@ -1,8 +1,15 @@
+Bonding curve  deepdive
+https://substack.com/inbox/post/161302339
+
+
 # Audit 1
 
 1. High Findings
+2. 
 1.1 Incorrect Comparison in buy_token Leading to Graduation
+   
 Threshold Violation
+
 Description
 In the buy_token function, the comparison between net_buy_amount and
 max_buy_amount_with_fees is incorrect. The issue arises because max_buy_amount_with_fees
